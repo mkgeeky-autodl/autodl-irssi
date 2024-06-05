@@ -1,14 +1,12 @@
 ## Submitting an issue
 
-Bug reports and feature requests can be submitted to our [Issue Tracker](https://github.com/autodl-community/autodl-irssi/issues).
+Bug reports and feature requests can be submitted to our [Issue Tracker](https://github.com/mkgeeky-autodl/autodl-irssi/issues).
 
 Some general guidelines to follow:
 
 * Use an appropriate, descriptive title.
 * Provide as many details as possible.
 * Don't piggy-back. Keep separate topics in separate issues.
-
-If you need to keep some information private, you can e-mail autodl.community@gmail.com with the subject ``Issue #`` replacing \# with the number of your issue.
 
 ## Submitting code
 
@@ -29,7 +27,7 @@ Each commit should encompass the smallest logical changeset (e.g. changing two u
 
 ## Trackers
 
-Please make all tracker bug reports, requests, and modifications to the [autodl-trackers](https://github.com/autodl-community/autodl-trackers) repository.
+Please make all tracker bug reports, requests, and modifications to the [autodl-trackers](https://github.com/mkgeeky/autodl-trackers) repository.
 
 ## ruTorrent plugin
 
