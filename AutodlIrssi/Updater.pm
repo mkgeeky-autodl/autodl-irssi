@@ -41,8 +41,8 @@ use File::Spec;
 use File::Copy;
 use Archive::Zip qw/ :ERROR_CODES /;
 use constant {
-	AUTODL_UPDATE_URL => 'https://api.github.com/repos/autodl-community/autodl-irssi/releases/latest',
-	TRACKERS_UPDATE_URL => 'https://api.github.com/repos/autodl-community/autodl-trackers/releases/latest',
+	AUTODL_UPDATE_URL => 'https://api.github.com/repos/mkgeeky-autodl/autodl-irssi/releases/latest',
+	TRACKERS_UPDATE_URL => 'https://api.github.com/repos/mkgeeky/autodl-trackers/releases/latest',
 	UPDATE_USER_AGENT => 'autodl-irssi',
 };
 
@@ -124,7 +124,7 @@ sub _parseAutodlUpdate {
 
 	my $autodlTagName = my $autodlVersion = $autodlData->{tag_name};
 	$autodlVersion =~ s/.*v//;
-	my $autodlDownloadUrl = "https://github.com/autodl-community/autodl-irssi/releases/download/$autodlTagName/autodl-irssi-v$autodlVersion.zip";
+	my $autodlDownloadUrl = "https://github.com/mkgeeky-autodl/autodl-irssi/releases/download/$autodlTagName/v$autodlVersion.zip";
 	my $autodlChangeLog = $autodlData->{body};
 
 	$self->{autodl} = {
@@ -141,7 +141,7 @@ sub _parseTrackersUpdate {
 
 	my $trackersTagName = my $trackersVersion = $trackersData->{tag_name};
 	$trackersVersion =~ s/.*v//;
-	my $trackersDownloadUrl = "https://github.com/autodl-community/autodl-trackers/releases/download/$trackersTagName/autodl-trackers-v$trackersVersion.zip";
+	my $trackersDownloadUrl = "https://github.com/mkgeeky/autodl-trackers/releases/download/$trackersTagName/v$trackersVersion.zip";
 	my $trackersChangeLog = $trackersData->{body};
 
 	$self->{trackers} = {
