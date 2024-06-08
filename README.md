@@ -1,5 +1,3 @@
-# THE UPDATE BUTTON DONT WORK. SO DONT DOWNLOAD NEW RELEASES, UNTIL THIS MESSAGE IS GONE
-
 # autodl-irssi
 
 [autodl-irssi](https://github.com/mkgeeky-autodl/autodl-irssi) is a plugin for [irssi](https://irssi.org/) that monitors IRC announce channels and downloads torrent files based on user-defined filters.
