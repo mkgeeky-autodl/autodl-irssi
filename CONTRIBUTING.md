@@ -18,7 +18,7 @@ For simple, single file changes/additions, sending or linking your modified file
 
 [Pull Requests](https://help.github.com/articles/creating-a-pull-request) should originate from a [feature branch][fb] in your [fork][fork], not from the **master** branch.
 
-Commit messages should be written in a [well-formed, consistent](https://sethrobertson.github.io/GitBestPractices/#usemsg) manner. See the [commit log](https://github.com/autodl-community/autodl-irssi/commits) for acceptable examples.
+Commit messages should be written in a [well-formed, consistent](https://sethrobertson.github.io/GitBestPractices/#usemsg) manner. See the [commit log](https://github.com/mkgeeky-autodl/autodl-irssi/commits) for acceptable examples.
 
 Each commit should encompass the smallest logical changeset (e.g. changing two unrelated things in the same file would be two commits rather than one commit of "Change filename".) If you made a mistake in a commit in your Pull Request, you should [amend or rebase](https://www.atlassian.com/git/tutorials/rewriting-history) to change your previous commit(s) then [force push](http://stackoverflow.com/a/12610763) to the [feature branch][fb] in your [fork][fork].
 
