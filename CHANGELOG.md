@@ -3,6 +3,15 @@
 Notable changes for [autodl-irssi](https://github.com/autodl-community/autodl-irssi).
 
 
+## [v2.6.2.2](https://github.com/mkgeeky-autodl/autodl-irssi/releases/tag/v2.6.2.2) (2024-06-10)
+
+[Commits](https://github.com/mkgeeky-autodl/autodl-irssi/compare/v2.6.2.1...v2.6.2.2)
+
+### Changed
+* Updated all URL's to use mkgeeky's version
+* [Add 202x support to year parser](https://github.com/autodl-community/autodl-irssi/commit/f8345a74c7614c947d9aabe91202669cb3e13575)
+
+
 ## [v2.6.2](https://github.com/autodl-community/autodl-irssi/releases/tag/v2.6.2) (2020-03-11)
 
 [Commits](https://github.com/autodl-community/autodl-irssi/compare/v2.6.1...v2.6.2)
